@@ -1,0 +1,10 @@
+export const SET_NOTIFICATION = "SET_NOTIFICATION";
+export const GET_ALL_FRIENDS = "GET_ALL_FRIENDS";
+export const ADD_FRIEND = "ADD_FRIEND";
+export const CHAT_TARGET = "CHAT_TARGET";
+export const GET_PEOPLE = "GET_PEOPLE";
+export const GET_PROFILE = "GET_PROFILE";
+export const ADD_NEW_MESSAGE = "ADD_NEW_MESSAGE";
+export const GET_PEVIOUS_MESSAGES = "GET_PEVIOUS_MESSAGES";
+export const SEND_MESSAGE = "SEND_MESSAGE";
+export const SET_SOCKET_ID = "SET_SOCKET_ID";

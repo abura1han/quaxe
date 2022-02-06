@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Message */
+.message-list li h1 {
+  font-size: 22px;
+}
+
+.message-list li h2 {
+  font-size: 20px;
+}
+
+.message-list li h3 {
+  font-size: 18px;
+}
+
+.message-list li h4 {
+  font-size: 16px;
+}
+
+.message-list li h5 {
+  font-size: 14px;
+}
+
+.message-list li h6 {
+  font-size: 12px;
+}
+
+.message-list li p {
+  font-size: 16px;
+}
+
+.message-list li ul:not(.contains-task-list) {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.message-list li ul li {
+  margin-left: 10px;
+}
+
+.message-list li ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+.message-list li ol li {
+  margin-left: 10px;
+}
+
+.message-list li a {
+  color: #26c553;
+  text-decoration: underline;
+}
+
+.message-list li pre code {
+  background: black;
+  color: rgb(39 161 83);
+  display: block;
+  padding: 2px;
+  overflow-x: auto;
+}
